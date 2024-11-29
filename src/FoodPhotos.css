@@ -1,0 +1,34 @@
+.FoodPhotos {
+    padding: 5rem 0 5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    background: #F5FAFF;
+}
+
+.FoodPhotos > p {
+    font-size: 1.2rem;
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 500;
+}
+
+.FoodPhotosSwiper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.FoodPhotosSwiper img {
+    width: 20rem;
+    height: 30rem;
+    border-radius: 10px;
+}
+
+.FoodPhotosSwiper .swiper-slide {
+    margin: 0 !important;
+    display: flex;
+    justify-content: center;
+}

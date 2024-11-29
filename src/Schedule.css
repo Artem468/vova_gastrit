@@ -1,0 +1,212 @@
+.Schedule {
+    padding: 10rem 0 0 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #F5FAFF;
+    gap: 2rem;
+
+}
+
+.ScheduleUp {
+    z-index: 10;
+    width: 80%;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.ScheduleUp div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    gap: 1rem;
+}
+
+.ScheduleUp div p {
+    text-align: center;
+    text-wrap: pretty;
+    font-family: "Montserrat", sans-serif;
+}
+
+.eatPrograms {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.eatProgramsSelector {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eatProgramsSelector button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 3rem;
+    border-radius: 20px;
+    border: none;
+    background: #DEE6EE;
+    color: black;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 1.2rem;
+
+}
+
+.eatProgramsSelector .active {
+    background: #64D370;
+    color: white;
+}
+
+.eatProgramsCategories {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eatProgramsCategories div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 1rem;
+}
+
+.eatProgramsCategories p:first-child {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.fitnessProgram {
+    display: grid;
+    gap: 2rem;
+    grid-template-areas:
+    "fitness days days"
+    "fitness schedule schedule"
+    "prices schedule schedule"
+    "prices schedule schedule"
+    "prices schedule schedule";
+}
+
+.eatPrograms .fitness {
+    grid-area: fitness;
+    background: #64D370;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    width: 20rem;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    box-shadow: rgba(86, 86, 86, 0.3) 0 4px 40px;
+    border-radius: 25px;
+}
+
+.eatPrograms .days {
+    grid-area: days;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.3);
+    font-family: "Comfortaa", sans-serif;
+    font-size: 1.5rem;
+    box-shadow: rgba(86, 86, 86, 0.3) 0 4px 40px;
+    width: 68rem;
+    height: 4rem;
+}
+
+.eatPrograms .fitness > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 2rem;
+}
+
+.eatPrograms .fitness > div p:first-child {
+    font-size: 1.3rem;
+}
+
+.eatPrograms .buy {
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.eatPrograms .buy button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #64D370;
+    border: none;
+    border-radius: 35px;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 1.2rem;
+    width: 16rem;
+    height: 4rem;
+    color: white;
+}
+
+.eatPrograms .schedule {
+    grid-area: schedule;
+    border-radius: 30px;
+    padding: 1rem;
+    width: 66rem;
+    background: rgba(255, 255, 255, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(86, 86, 86, 0.3) 0 4px 40px;
+}
+
+.eatPrograms .schedule > div {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
+}
+
+.eatPrograms .prices {
+    grid-area: prices;
+    padding: 0 3rem 3rem 3rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.eatPrograms .prices > div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}

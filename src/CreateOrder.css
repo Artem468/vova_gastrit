@@ -1,0 +1,131 @@
+.createOrder {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #F5FAFF;
+    padding-bottom: 3rem;
+    gap: 4rem;
+}
+
+.createOrder .order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 30%;
+}
+
+.createOrder .order > p:first-child {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 1.6rem;
+}
+
+.createOrder .order > p:nth-child(2) {
+    width: 60%;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 0.9rem;
+    text-wrap: pretty;
+    text-align: center;
+}
+
+.createOrder .order input[type=text] {
+    background: #DEE6EE;
+    border: none;
+    padding: 0.7rem 1rem 0.7rem 1rem;
+    width: 20rem;
+    height: 1rem;
+    outline: none;
+    border-radius: 1rem;
+    color: black;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.checkoutOrder {
+    margin-left: 4rem;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    color: black;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 1rem;
+}
+
+.checkoutOrder input[type=checkbox] {
+    background: #DEE6EE;
+    border: #64D370 2px solid;
+    accent-color: #64D370;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+}
+
+.orderButtons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.orderButtons button:first-child {
+    border: 2px solid #64D370;
+    color: #64D370;
+    width: 20rem;
+    height: 3rem;
+    background: transparent;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 1.2rem;
+    border-radius: 25px;
+}
+
+.orderButtons button:last-child {
+    border: none;
+    color: white;
+    width: 20rem;
+    height: 3rem;
+    background: #64D370;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 1.2rem;
+    border-radius: 25px;
+}
+
+.orderButtons p {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 1.2rem;
+}
+
+.createOrder .questions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.createOrder .questions div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.3);
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: rgba(86, 86, 86, 0.3) 0 4px 20px;
+}
+
+.createOrder .questions a {
+    text-decoration: none;
+    color: black;
+}
+
+.createOrder .questions > p {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 1.6rem;
+}
+

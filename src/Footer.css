@@ -1,0 +1,57 @@
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 12rem;
+    align-items: center;
+    background-color: #F5FAFF;
+    padding: 2rem;
+    font-family: "Comfortaa", "sans-serif";
+}
+
+footer .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+}
+
+footer .left a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+
+}
+
+footer .middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+footer .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    gap: 1.7rem;
+}
+
+footer .right a {
+    text-decoration: none;
+    color: black;
+}
+
+footer .right > div {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+footer .right > p {
+    color: #64D370;
+    font-weight: 600;
+
+}
